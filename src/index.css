@@ -1,8 +1,10 @@
-body {
-  background-color: rgb(255, 245, 232);
-  color: #00f;
-  font-weight: bold;
-  font-size: 3rem;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
+
+
 
 
