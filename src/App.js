@@ -1,11 +1,13 @@
 import './App.css';
-import Sidebar from './Components/Sidebar/sidebar'; 
+import Sidebar from './Components/Sidebar/sidebar.js'; 
 
 function App() {
   return (
     <div className="App">
       <div className="main">
-       Free Palestine
+       <h1>
+        Free Palestine!
+       </h1>
       </div>
       <Sidebar />
     </div>
