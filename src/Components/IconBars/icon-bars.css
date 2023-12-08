@@ -1,0 +1,27 @@
+
+.icon-bars{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 7;
+    color:#fff;
+    background-color: #149ddd;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  @media (min-width: 993px){
+
+    .icon-bars{
+        display: none;
+    }
+
+  }
+

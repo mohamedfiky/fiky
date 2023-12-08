@@ -10,6 +10,7 @@ aside {
     padding: 0 15px;
     background: #040b14;
     overflow-y: auto;
+    transition: all .7s ease-in-out;
   }
   
   aside .profile img {
@@ -22,18 +23,14 @@ aside {
   
   aside .profile h1 {
     font-size: 24px;
-    margin: 0;
-    padding: 0;
-    -moz-text-align-last: center;
-    text-align-last: center;
     font-weight: bold;
     font-family: 'Lato', sans-serif;
+    text-align: center;
   }
   
   aside .profile h1 a,
   aside .profile h1 a:hover {
     color: #fff;
-    text-decoration: none;
   }
 
   aside .profile .social-links{
@@ -85,68 +82,44 @@ aside {
     padding: 30px 0 0 0;
   }
   
-  .nav-menu>ul>li {
-    position: relative;
-    white-space: nowrap;
-  }
-  
-  .nav-menu a,
-  .nav-menu a:focus {
+  .nav-menu a{
     display: flex;
     align-items: center;
     color: #a8a9b4;
     padding: 12px 15px;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     font-size: 16px;
   }
+
+  .nav-menu li:last-of-type a{
+    margin-bottom: 0px;
+  }
   
-  .nav-menu a i,
-  .nav-menu a:focus i {
+  .nav-menu a i{
+    color: #6f7180;
     font-size: 24px;
     padding-right: 8px;
-    color: #6f7180;
+    margin-top: 4px;
   }
   
-  .nav-menu a:hover,
-  .nav-menu .active,
-  .nav-menu .active:focus,
-  .nav-menu li:hover>a {
-    text-decoration: none;
+  .nav-menu a.active,
+  .nav-menu li:hover a {
     color: #fff;
   }
   
-  .nav-menu a:hover i,
-  .nav-menu .active i,
-  .nav-menu .active:focus i,
-  .nav-menu li:hover>a i {
+  .nav-menu a.active i,
+  .nav-menu li:hover i {
     color: #149ddd;
   }
-  
-  /* Mobile Navigation */
-  .mobile-nav-toggle {
-    position: fixed;
-    right: 15px;
-    top: 15px;
-    z-index: 9998;
-    border: 0;
-    font-size: 24px;
-    outline: none !important;
-    background-color: #149ddd;
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 0;
-    border-radius: 50px;
-    cursor: pointer;
-  }
-  
-  .mobile-nav-active {
-    overflow: hidden;
-  }
-  
-  .mobile-nav-active aside {
-    left: 0;
+
+  @media (max-width: 992px){
+
+    aside{
+      left: -300px;
+    }
+
+    aside.open{
+      left: 0;
+    }
+
   }
