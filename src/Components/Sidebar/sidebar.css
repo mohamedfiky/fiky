@@ -1,16 +1,19 @@
-/*--------------------------------------------------------------
-# aside
---------------------------------------------------------------*/
+
 aside {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
+    z-index: 7;
     width: 300px;
     padding: 0 15px;
     background: #040b14;
     overflow-y: auto;
     transition: all .7s ease-in-out;
+  }
+
+  aside.open{
+    left: 0;
   }
   
   aside .profile img {
@@ -57,32 +60,17 @@ aside {
     color: #fff;
     text-decoration: none;
   }
-  
-  /* @media (max-width: 1199px) {
-    aside {
-      left: -300px;
-    }
-  
-    #main {
-      margin-left: 0;
-    }
-  
-    .container,
-    .container-fluid {
-      padding-left: 12px;
-      padding-right: 12px;
-    }
-  } */
+
   
   /*--------------------------------------------------------------
   # Navigation Menu
   --------------------------------------------------------------*/
-  /* Desktop Navigation */
-  .nav-menu {
+
+  aside .nav-menu {
     padding: 30px 0 0 0;
   }
   
-  .nav-menu a{
+  aside .nav-menu a{
     display: flex;
     align-items: center;
     color: #a8a9b4;
@@ -91,24 +79,24 @@ aside {
     font-size: 16px;
   }
 
-  .nav-menu li:last-of-type a{
+  aside .nav-menu li:last-of-type a{
     margin-bottom: 0px;
   }
   
-  .nav-menu a i{
+  aside .nav-menu a i{
     color: #6f7180;
     font-size: 24px;
     padding-right: 8px;
     margin-top: 4px;
   }
   
-  .nav-menu a.active,
-  .nav-menu li:hover a {
+  aside .nav-menu a.active,
+  aside .nav-menu li:hover a {
     color: #fff;
   }
   
-  .nav-menu a.active i,
-  .nav-menu li:hover i {
+  aside .nav-menu a.active i,
+  aside .nav-menu li:hover i {
     color: #149ddd;
   }
 
@@ -116,10 +104,6 @@ aside {
 
     aside{
       left: -300px;
-    }
-
-    aside.open{
-      left: 0;
     }
 
   }

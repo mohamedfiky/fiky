@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Sidebar from './Components/Sidebar/sidebar.js';
-import IconBars from './Components/IconBars/icon-bars.js'; 
+import MenuIcons from './Components/MenuIcons/menu-icons.js'; 
 import HomePage from "./Pages/Home-page/home.js";
 import ProjectsPage from "./Pages/Projects-page/projects.js";
 import ResumePage from "./Pages/Resume-page/resume.js";
@@ -24,7 +24,7 @@ function App() {
           </div>
 
           <Sidebar />
-          <IconBars />
+          <MenuIcons />
     
        </BrowserRouter>
   );
