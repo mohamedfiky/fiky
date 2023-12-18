@@ -16,19 +16,85 @@
 }
 
 .header h2{
-    font-size: 24px;
-    font-weight: normal;
-}
-
-.header p{
-    font-size: 30px;
-    margin-top: 16px;
-    padding-bottom: 4px;
+    font-size: 26px;
     letter-spacing: 1px;
 }
 
-.header p span{
-    border-bottom: 3px solid #149ddd;
-    padding-bottom: 4px;
+.header .typed{
+    margin-top: 20px;
+}
 
+.header p{
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+
+.header span{
+    font-size: 26px;
+    letter-spacing: 3px;
+    padding-bottom: 4px;
+    border-bottom: 3px solid #149ddd;
+}
+
+.header .btns{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:24px;
+}
+
+.header .btn{
+    padding: 10px 16px;
+    color:#fff;
+    background-color: #149ddd;
+    border: 2px solid #149ddd;
+    border-radius: 4px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.header .btn:hover{
+    background-color:#fff;
+    color: #149ddd;
+}
+
+@media(max-width: 500px){
+
+    .header h1{
+        font-size: 46px;
+    }
+
+    .header h2{
+        font-size: 22px;
+    }
+
+    .header p{
+        font-size: 20px;
+    }
+    
+    .header span{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 400px){
+
+    .header h1{
+        font-size: 36px;
+    }
+
+    .header h2{
+        font-size: 20px;
+    }
+
+    .header p{
+        font-size: 18px;
+    }
+    
+    .header span{
+        font-size: 18px;
+        letter-spacing: 2px;
+        line-height: 1.7;
+    }
 }

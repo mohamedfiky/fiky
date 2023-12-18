@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import Typed from "typed.js";
+import { NavLink } from 'react-router-dom';
 import "./header.css";
 
 function Header() {
@@ -19,7 +20,7 @@ function Header() {
         startDelay: 300,
         typeSpeed: 50,
         backSpeed: 50,
-        backDelay: 3000,
+        backDelay: 4000,
         loop: true
       });
   
@@ -31,9 +32,16 @@ function Header() {
 
   return (
     <div className="header">
-        <h1>Mohamed El-Fiky</h1>
-        <h2>Front-end Developer</h2>
-        <p>I can work on <span ref={el}></span></p>
+      <h1>Mohamed El-Fiky</h1>
+      <h2>Front-end Developer</h2>
+      <div className="typed">
+        <p>I can work on :</p>
+        <span ref={el}></span>
+      </div>
+      <div className="btns">
+        <NavLink className="btn" exact to="/projects">Projects</NavLink>
+        <NavLink className="btn" exact to="/resume">Resume</NavLink>
+      </div>
     </div>
   )
 }
