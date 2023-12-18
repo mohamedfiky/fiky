@@ -1,6 +1,8 @@
+
+/* main blue color = #149ddd */
+
 .main{
   margin-left: 300px;
-  text-align: center;
 }
 
 @media (max-width: 992px){
