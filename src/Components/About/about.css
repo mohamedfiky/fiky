@@ -3,9 +3,43 @@
     padding: 60px 25px;
 }
 
+.about p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.about .about-row{
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+}
 
 .programmer-img{
-    width:400px;
-    margin: 20px;
-    border: 3px solid #000;
+    width: 50%;
+    border: 1px solid #000;
+}
+
+/* .about .about-row .personal-info{
+
+} */
+
+.about .about-row .personal-info h3{
+    font-size: 26px;
+    color: #173b6c;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.about .about-row .personal-info ul li{
+    font-weight: bold;
+}
+
+.about .about-row .personal-info ul li i{
+    font-size: 18px;
+    color: #149ddd;
+}
+
+.about .about-row .personal-info ul li span{
+    font-weight: normal;
 }

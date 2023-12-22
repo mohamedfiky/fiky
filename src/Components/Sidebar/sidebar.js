@@ -35,7 +35,7 @@ function Sidebar() {
             <a href="https://www.linkedin.com/in/mohamedfiky" target="_blank"><FaLinkedinIn /></a>
             <a href="https://github.com/mohamedfiky" target="_blank"><FiGithub /></a>
             <a href="https://wa.me/201558065883" target="_blank"><SiWhatsapp /></a>
-            <a href="mailto:fiky.link@gmail.com" target="_blank"><MdOutlineEmail /></a>
+            <a href="mailto:fiky4work@gmail.com" target="_blank"><MdOutlineEmail /></a>
           </div>
         </div>
   

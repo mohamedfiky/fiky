@@ -6,6 +6,7 @@ font-family: 'Open Sans', sans-serif; */
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
   transition: all 0.4s ease-in-out;
 }
 
