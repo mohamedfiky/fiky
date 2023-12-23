@@ -1,10 +1,16 @@
 import React from 'react';
 import "./about.css";
 import svg from "../../assets/images/programmer.svg";
-import { IoIosArrowForward } from "react-icons/io";
+import { MdArrowForwardIos } from "react-icons/md";
 
 
 function About() {
+
+  let date = new Date();
+  let current_year = date.getFullYear();
+  let my_birth_year = 1990 ;
+  let myAge = current_year - my_birth_year ;
+
   return (
     <div className="about">
       <h2 className="special-heading">About Me</h2>
@@ -15,12 +21,12 @@ function About() {
         <div className="personal-info">
           <h3>Personal Information</h3>
           <ul>
-            <li><i><IoIosArrowForward /></i> Name: <span>Mohamed El-Fiky</span></li>
-            <li><i><IoIosArrowForward /></i> Age: <span></span></li>
-            <li><i><IoIosArrowForward /></i> Country: <span></span></li>
-            <li><i><IoIosArrowForward /></i> Languages: <span></span></li>
-            <li><i><IoIosArrowForward /></i> Phone: <span></span></li>
-            <li><i><IoIosArrowForward /></i> E-mail: <span></span></li>
+            <li><i><MdArrowForwardIos /></i><span className="key">Name: </span><span className="value">Mohamed El-Fiky</span></li>
+            <li><i><MdArrowForwardIos /></i><span className="key">Age: </span><span className="value">{myAge}</span></li>
+            <li><i><MdArrowForwardIos /></i><span className="key">Country: </span><span className="value">Egypt</span></li>
+            <li><i><MdArrowForwardIos /></i><span className="key">Languages: </span><span className="value">Arabic, English</span></li>
+            <li><i><MdArrowForwardIos /></i><span className="key">Phone: </span><span className="value">+201558065883</span></li>
+            <li><i><MdArrowForwardIos /></i><span className="key">E-mail: </span><span className="value">fiky4work@gmail.com</span></li>
           </ul>
         </div>
       </div>

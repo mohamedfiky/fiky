@@ -11,35 +11,114 @@
 
 .about .about-row{
     display: flex;
+    align-items: center;
     margin-top: 40px;
-    gap: 30px;
+    gap: 60px;
 }
 
-.programmer-img{
-    width: 50%;
-    border: 1px solid #000;
+.about .about-row .programmer-img{
+    width: 44%;
 }
-
-/* .about .about-row .personal-info{
-
-} */
 
 .about .about-row .personal-info h3{
     font-size: 26px;
     color: #173b6c;
     margin-top: 0;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
+}
+
+
+.about .about-row .personal-info ul{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .about .about-row .personal-info ul li{
-    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
 
 .about .about-row .personal-info ul li i{
     font-size: 18px;
     color: #149ddd;
+    display: flex;
+    align-items: center;
 }
 
-.about .about-row .personal-info ul li span{
-    font-weight: normal;
+.about .about-row .personal-info ul li span.key{
+    font-weight: bold;
+    margin-right: 2px;
 }
+
+.about .about-row .personal-info ul li span.value{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+/*****************************/
+
+
+@media (max-width: 992px){
+
+    .about{
+        padding: 60px;
+    }
+
+}
+
+
+@media (max-width: 768px){
+
+    .about .about-row .programmer-img{
+        width: 70%;
+    }
+    
+    .about .about-row{
+        margin-top: 60px;
+        flex-direction: column-reverse;
+    }
+
+    .about .about-row .personal-info ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .about .about-row .personal-info ul li{
+        min-width: 40%;
+    }
+
+}
+
+
+@media (max-width: 680px){
+
+    .about .about-row{
+        align-items: flex-start;
+    }
+    
+    .about .about-row .programmer-img{
+        width: 90%;
+        align-self: center;
+    }
+
+    .about .about-row .personal-info ul{
+        flex-direction: column;
+    }
+
+}
+
+
+@media (max-width: 480px){
+
+    .about{
+        padding: 60px 25px;
+    }
+
+    .about .about-row .programmer-img{
+        width: 98%;
+    }
+
+}
+
