@@ -14,7 +14,7 @@ function App() {
   return (
        <BrowserRouter>
     
-          <div className="main">
+          {/* <div className="main"> */}
             <Routes>
               <Route exact path="/" element={<HomePage />} />
               <Route path="/projects" element={<ProjectsPage />} />
@@ -22,7 +22,7 @@ function App() {
               <Route path="/contacts" element={<ContactPage />} />
               {/* <Route element={<Error404 />} /> */}
             </Routes>
-          </div>
+          {/* </div> */}
 
           <Sidebar />
           <MenuIcons />

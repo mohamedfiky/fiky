@@ -30,7 +30,7 @@ function Sidebar() {
   
         <div className="profile">
           <img src={profileImg} alt="My Profile Picture" />
-          <h1><NavLink exact to="/" onClick={close_sidebar}>Mohamed El-Fiky</NavLink> </h1>
+          <h1><NavLink exact to="/" onClick={close_sidebar}>Mohamed El-Fiky</NavLink></h1>
           <div className="social-links">
             <a href="https://www.linkedin.com/in/mohamedfiky" target="_blank"><FaLinkedinIn /></a>
             <a href="https://github.com/mohamedfiky" target="_blank"><FiGithub /></a>

@@ -4,7 +4,7 @@ fiky.onrender.com
 الموقع هيبقى باللغتين العربى والإنجليزى
 الموقع 4 صفحات , home, projects, resume, contact
 
-home => sidebar + header, about, skills, services, footer
+home => sidebar + header, about, skills, services, freelancing, footer
  
 projects => ... + tabs: (all, html, react, wordpress) each project has its own info page
 
