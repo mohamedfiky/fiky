@@ -4,12 +4,6 @@
     padding: 60px 25px;
 }
 
-.skills p{
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-}
-
 .skills .all-skills{
     display: flex;
     flex-wrap: wrap;
@@ -44,7 +38,7 @@
     left:0;
     width:0;
     height:100%;
-    background: #149ddd;
+    background: var(--main-blue);
     transition: all 3s ease-in-out ;
     color:#fff;
     text-align: right;

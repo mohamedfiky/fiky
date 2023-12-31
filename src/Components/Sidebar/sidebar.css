@@ -56,7 +56,7 @@ aside {
   }
   
   aside .profile .social-links a:hover {
-    background: #149ddd;
+    background: var(--main-blue);
     color: #fff;
     text-decoration: none;
   }
@@ -97,7 +97,7 @@ aside {
   
   aside .nav-menu a.active i,
   aside .nav-menu li:hover i {
-    color: #149ddd;
+    color: var(--main-blue);
   }
 
   @media (max-width: 992px){

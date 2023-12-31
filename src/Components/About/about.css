@@ -3,12 +3,6 @@
     padding: 60px 25px;
 }
 
-.about p{
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-}
-
 .about .about-row{
     display: flex;
     align-items: center;
@@ -42,7 +36,7 @@
 
 .about .about-row .personal-info ul li i{
     font-size: 18px;
-    color: #149ddd;
+    color: var(--main-blue);;
     display: flex;
     align-items: center;
 }

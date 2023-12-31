@@ -33,7 +33,7 @@
     font-size: 26px;
     letter-spacing: 3px;
     padding-bottom: 4px;
-    border-bottom: 3px solid #149ddd;
+    border-bottom: 3px solid var(--main-blue);
 }
 
 .header .btns{
@@ -47,15 +47,15 @@
 .header .btn{
     padding: 10px 16px;
     color:#fff;
-    background-color: #149ddd;
-    border: 2px solid #149ddd;
+    background-color: var(--main-blue);
+    border: 2px solid var(--main-blue);
     border-radius: 4px;
     letter-spacing: 1px;
 }
 
 .header .btn:hover{
     background-color:#fff;
-    color: #149ddd;
+    color: var(--main-blue);
 }
 
 

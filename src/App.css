@@ -1,5 +1,8 @@
 
-/* main blue color = #149ddd */
+
+:root{
+  --main-blue:#149ddd;
+}
 
 .main{
   margin-left: 300px;
@@ -31,4 +34,10 @@
   background: #149ddd;
   bottom: 0;
   left: 0;
+}
+
+.special-p{
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
 }

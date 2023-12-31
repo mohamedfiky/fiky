@@ -36,7 +36,7 @@ function Skills() {
   return (
     <div className="skills">
         <h2 className="special-heading">Skills</h2>
-        <p>I don't think it's logical to evaluate yourself because how can you determine that  
+        <p className="special-p">I don't think it's logical to evaluate yourself because how can you determine that  
             your knowledge in a language like HTML is at 90% unless you have a complete grasp
              of 100% of it? Therefore, with the following progress bars, I intended to showcase
               my ability to accomplish tasks by those tools and skills
