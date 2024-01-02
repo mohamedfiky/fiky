@@ -44,7 +44,7 @@ function Sidebar() {
             <li><NavLink activeClassName="active" exact to="/" onClick={close_sidebar}><i><BiHome /></i> <span>Home</span></NavLink></li>
             <li><NavLink activeClassName="active" exact to="/projects" onClick={close_sidebar}><i><FaLaptopCode /></i> <span>Projects</span></NavLink></li>
             <li><NavLink activeClassName="active" exact to="/resume" onClick={close_sidebar}><i><LiaFileDownloadSolid /></i> <span>Resume</span></NavLink></li>
-            <li><NavLink activeClassName="active" exact to="/contacts" onClick={close_sidebar}><i><BiEnvelope /></i> <span>Contact</span></NavLink></li>
+            <li><NavLink activeClassName="active" exact to="/contacts" onClick={close_sidebar}><i><BiEnvelope /></i> <span>Contacts</span></NavLink></li>
           </ul>
         </nav>
 
