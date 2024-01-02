@@ -1,8 +1,4 @@
 
-.about{
-    padding: 60px 25px;
-}
-
 .about .about-row{
     display: flex;
     align-items: center;
@@ -16,7 +12,7 @@
 
 .about .about-row .personal-info h3{
     font-size: 26px;
-    color: #173b6c;
+    color: var(--dark-blue);
     margin-top: 0;
     margin-bottom: 32px;
 }
@@ -51,16 +47,8 @@
     font-size: 18px;
 }
 
+
 /*****************************/
-
-
-@media (max-width: 992px){
-
-    .about{
-        padding: 60px;
-    }
-
-}
 
 
 @media (max-width: 768px){
@@ -105,10 +93,6 @@
 
 
 @media (max-width: 480px){
-
-    .about{
-        padding: 60px 25px;
-    }
 
     .about .about-row .programmer-img{
         width: 98%;

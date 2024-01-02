@@ -1,7 +1,6 @@
 
 .skills{
     background-color: #f5f8fd;
-    padding: 60px 25px;
 }
 
 .skills .all-skills{
@@ -50,11 +49,8 @@
 
 /*********************/
 
-@media (max-width: 992px){
 
-    .skills{
-        padding: 60px;
-    }
+@media (max-width: 992px){
 
     .skills .skill-box{
         min-width: 46%;
@@ -81,12 +77,5 @@
 }
 
 
-@media (max-width: 480px){
-
-    .skills{
-        padding: 60px 25px;
-    }
-
-}
 
 

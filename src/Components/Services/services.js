@@ -6,7 +6,7 @@ import { IoLogoWordpress } from "react-icons/io";
 
 function Services() {
   return (
-    <div className="services">
+    <div className="services container">
         <h2 className="special-heading">Services</h2>
         <p className="special-p">I can work efficiently on various types of projects,
              such as HTML, CSS & JavaScript projects, React JS projects,

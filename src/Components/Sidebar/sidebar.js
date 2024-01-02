@@ -3,9 +3,9 @@ import "./sidebar.css";
 import { NavLink } from 'react-router-dom';
 import profileImg from "../../assets/images/profile.jpg";
 import { FaLinkedinIn, FaLaptopCode } from "react-icons/fa";
-import { MdOutlineEmail } from "react-icons/md";
 import { FiGithub } from "react-icons/fi";
 import { SiWhatsapp } from "react-icons/si";
+import { MdOutlineEmail } from "react-icons/md";
 import { BiHome, BiEnvelope } from "react-icons/bi";
 import { LiaFileDownloadSolid } from "react-icons/lia";
 

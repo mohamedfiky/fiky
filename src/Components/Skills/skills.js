@@ -34,7 +34,7 @@ function Skills() {
     };
 
   return (
-    <div className="skills">
+    <div className="skills container">
         <h2 className="special-heading">Skills</h2>
         <p className="special-p">I don't think it's logical to evaluate yourself because how can you determine that  
             your knowledge in a language like HTML is at 90% unless you have a complete grasp

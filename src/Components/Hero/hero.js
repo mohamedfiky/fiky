@@ -31,7 +31,7 @@ function Hero() {
     }, []);
 
   return (
-    <div className="hero">
+    <div className="hero special-container">
       <h1>Mohamed El-Fiky</h1>
       <h2>Front-end Developer</h2>
       <div className="typed">

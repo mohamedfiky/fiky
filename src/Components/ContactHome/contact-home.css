@@ -1,6 +1,5 @@
 .contact-home{
     background-color: #f5f8fd;
-    padding: 60px 25px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -8,14 +7,14 @@
 
 .contact-home h2{
     font-size: 32px;
-    color: #173b6c;
+    color: var(--dark-blue);
 }
 
 .contact-home .btn{
     padding: 10px 26px;
     color:#fff;
-    background-color: #173b6c;
-    border: 2px solid #173b6c;
+    background-color: var(--dark-blue);
+    border: 2px solid var(--dark-blue);
     border-radius: 4px;
     letter-spacing: 1px;
     font-size: 18px;
@@ -24,20 +23,11 @@
 
 .contact-home .btn:hover{
     background-color:#fff;
-    color: #173b6c;
+    color: var(--dark-blue);
 }
 
 
 /**********************/
-
-
-@media (max-width: 992px){
-
-    .contact-home{
-        padding: 60px;
-    }
-
-}
 
 
 @media (max-width: 680px){
@@ -51,10 +41,6 @@
 
 
 @media (max-width: 480px){
-
-    .contact-home{
-        padding: 60px 25px;
-    }
 
     .contact-home h2{
         font-size: 24px;

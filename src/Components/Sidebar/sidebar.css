@@ -58,7 +58,6 @@ aside {
   aside .profile .social-links a:hover {
     background: var(--main-blue);
     color: #fff;
-    text-decoration: none;
   }
 
   
