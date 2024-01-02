@@ -1,4 +1,4 @@
-.header{
+.hero{
     background-image: url("../../assets/images/hero.jpg");
     height: 100vh;
     background-size: cover;
@@ -11,32 +11,32 @@
     text-align: center;
 }
 
-.header h1{
+.hero h1{
     font-size: 56px;
 }
 
-.header h2{
+.hero h2{
     font-size: 26px;
     letter-spacing: 1px;
 }
 
-.header .typed{
+.hero .typed{
     margin-top: 20px;
 }
 
-.header p{
+.hero p{
     font-size: 24px;
     margin-bottom: 14px;
 }
 
-.header span{
+.hero span{
     font-size: 26px;
     letter-spacing: 3px;
     padding-bottom: 4px;
     border-bottom: 3px solid var(--main-blue);
 }
 
-.header .btns{
+.hero .btns{
     margin-top: 40px;
     display: flex;
     align-items: center;
@@ -44,7 +44,7 @@
     gap:24px;
 }
 
-.header .btn{
+.hero .btn{
     padding: 10px 16px;
     color:#fff;
     background-color: var(--main-blue);
@@ -53,7 +53,7 @@
     letter-spacing: 1px;
 }
 
-.header .btn:hover{
+.hero .btn:hover{
     background-color:#fff;
     color: var(--main-blue);
 }
@@ -64,19 +64,19 @@
 
 @media(max-width: 500px){
 
-    .header h1{
+    .hero h1{
         font-size: 46px;
     }
 
-    .header h2{
+    .hero h2{
         font-size: 22px;
     }
 
-    .header p{
+    .hero p{
         font-size: 20px;
     }
     
-    .header span{
+    .hero span{
         font-size: 20px;
     }
 }
@@ -84,19 +84,19 @@
 
 @media(max-width: 400px){
 
-    .header h1{
+    .hero h1{
         font-size: 36px;
     }
 
-    .header h2{
+    .hero h2{
         font-size: 20px;
     }
 
-    .header p{
+    .hero p{
         font-size: 18px;
     }
     
-    .header span{
+    .hero span{
         font-size: 18px;
         letter-spacing: 2px;
         line-height: 1.7;

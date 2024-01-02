@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import Typed from "typed.js";
 import { NavLink } from 'react-router-dom';
-import "./header.css";
+import "./hero.css";
 
-function Header() {
+function Hero() {
 
     // Create Ref element.
     const el = useRef(null);
@@ -31,7 +31,7 @@ function Header() {
     }, []);
 
   return (
-    <div className="header">
+    <div className="hero">
       <h1>Mohamed El-Fiky</h1>
       <h2>Front-end Developer</h2>
       <div className="typed">
@@ -46,4 +46,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Hero
