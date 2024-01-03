@@ -84,3 +84,31 @@
   line-height: 1.5;
   margin-bottom: 10px;
 }
+
+.pages-heading {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: var(--dark-blue);
+}
+
+.pages-heading::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 90px;
+  height: 3px;
+  background: var(--main-blue);
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%); 
+}
+
+.pages-p{
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  text-align: center;
+}

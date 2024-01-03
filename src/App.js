@@ -4,7 +4,7 @@ import './App.css';
 import Sidebar from './Components/Sidebar/sidebar.js';
 import MenuIcons from './Components/MenuIcons/menu-icons.js'; 
 import HomePage from "./Pages/Home-page/home.js";
-import ProjectsPage from "./Pages/Projects-page/projects.js";
+import ProjectsPage from "./Pages/Projects-page/projects-page.js";
 import ResumePage from "./Pages/Resume-page/resume.js";
 import ContactPage from "./Pages/Contact-page/contact.js";
 import Footer from './Components/Footer/footer.js';
