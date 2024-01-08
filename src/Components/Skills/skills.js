@@ -1,37 +1,49 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import "./skills.css";
 
 function Skills() {
 
-    window.onscroll = function(){
+    useEffect(() => {
 
-        // : فيه إرور فى الحتة دى , لما بأعمل سكرول وآجى أشغل صفحة تانية مش بيلاقى ال 
-        // skills_div
+        window.onscroll = function(){
+
+            // : فيه إرور فى الحتة دى , لما بأعمل سكرول وآجى أشغل صفحة تانية مش بيلاقى ال 
+            // skills_div
+            // ال إرور فى اللوكال هوست بس , الموقع على النت سليم
+            // الحل كان إنك لازم تشيل الإيفنت اللى بيتنفذ لما تسكرول
+            
+            let skills_div = document.querySelector(".skills");
+            let skillsOffsetTop = skills_div.offsetTop;
+            let skillsHeight = skills_div.offsetHeight ;
+            let windowHeight = this.innerHeight ;
+            let windowScrollTop = this.scrollY ;
+            let skillsSpans = document.querySelectorAll(".skills .progress span");
+    
+    
+    
+            if(windowScrollTop > ((skillsOffsetTop + skillsHeight - windowHeight) - 300 ) ){
+               
+    
+                skillsSpans.forEach(span =>{
+    
+                    let styles = `
+                        width: ${span.dataset.progress};
+                        padding-right : 10px;
+                    `
+                    span.style = styles;
+    
+                });
+            }
+    
+        };
+
+        return () => {
+            // Clean up the window.onscroll event when component unmounts or navigates away
+            window.onscroll = null;
+          };
         
-        let skills_div = document.querySelector(".skills");
-        let skillsOffsetTop = skills_div.offsetTop;
-        let skillsHeight = skills_div.offsetHeight ;
-        let windowHeight = this.innerHeight ;
-        let windowScrollTop = this.scrollY ;
-        let skillsSpans = document.querySelectorAll(".skills .progress span");
+      }, []);
 
-
-
-        if(windowScrollTop > ((skillsOffsetTop + skillsHeight - windowHeight) - 300 ) ){
-           
-
-            skillsSpans.forEach(span =>{
-
-                let styles = `
-                    width: ${span.dataset.progress};
-                    padding-right : 10px;
-                `
-                span.style = styles;
-
-            });
-        }
-
-    };
 
   return (
     <div className="skills container">
