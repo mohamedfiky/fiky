@@ -33,22 +33,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 25px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
 .projects .projects-row .project{
-    width: 31%;
+    width: 280px;
     position: relative;
     overflow: hidden;
 }
 
-.projects .projects-row .project:hover{
-    opacity: .6;
-}
-
 .projects .projects-row .project img{
+    display: block;
     width: 100%;
+    transition: all .5s ease-in-out;
 }
 
 .projects .projects-row .project .project-links{
@@ -59,10 +57,14 @@
     height: 40px;
     background-color: var(--main-blue);
     transform: translateY(40px);
-    transition: all 0.5s ease-in-out;
+    opacity: .8;
+    transition: all .5s ease-in-out;    
+}
+
+.projects .projects-row .project:hover img{
+    opacity: .5;
 }
 
 .projects .projects-row .project:hover .project-links{
     transform: translateY(0);
-
 }

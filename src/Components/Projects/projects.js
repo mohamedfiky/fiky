@@ -49,15 +49,6 @@ function Projects() {
               </div>
             </div>
           </div>
-          <div className="project html">
-            <div className="project-info">
-              <img src={Jaee} />
-              <div className="project-links">
-                <a href="#1"></a>
-                <a href="#2"></a>
-              </div>
-            </div>
-          </div>
           <div className="project react">
             <div className="project-info">
               <img src={Active} />
@@ -70,6 +61,15 @@ function Projects() {
           <div className="project wordpress">
             <div className="project-info">
               <img src={Jackson} />
+              <div className="project-links">
+                <a href="#1"></a>
+                <a href="#2"></a>
+              </div>
+            </div>
+          </div>
+          <div className="project html">
+            <div className="project-info">
+              <img src={Jaee} />
               <div className="project-links">
                 <a href="#1"></a>
                 <a href="#2"></a>
