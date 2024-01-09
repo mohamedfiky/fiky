@@ -26,8 +26,8 @@ function Projects() {
             <div className="project-info">
               <img src={Jaee} />
               <div className="project-links">
-                <a href="#1"></a>
-                <a href="#2"></a>
+                <a href="#1">Details</a>
+                <a href="#2">Link</a>
               </div>
             </div>
           </div>
