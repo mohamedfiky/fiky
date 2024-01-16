@@ -23,7 +23,7 @@
     cursor: pointer;
 }
 
-.projects .projects-types .filters li.active-filter,
+.projects .projects-types .filters li.active,
 .projects .projects-types .filters li:hover
 {
     color: var(--main-blue);
@@ -41,6 +41,7 @@
     width: 286px;
     position: relative;
     overflow: hidden;
+    transition: all .7s ease-in-out;
 }
 
 .projects .projects-row .project img{
