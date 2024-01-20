@@ -1,12 +1,172 @@
 [
     {
         "id": 1,
-        "name": "",
-        "imgUrl": "",
-        "otherImgs": [],
+        "name": "Halla-w-Tasa",
+        "info": "A two-language multi-page E-Commerce Store.",
         "details": "",
         "skills": [],
-        "link": ""
+        "imgUrl": "projects-imgs/halla-w-tasa-1.png",
+        "imgs": [
+                    "projects-imgs/halla-w-tasa-1.png",
+                    "projects-imgs/halla-w-tasa-2.png",
+                    "projects-imgs/halla-w-tasa-3.png"
+                ],
+        "link": "https://halla-w-tasa.onrender.com",
+        "github": "https://github.com/mohamedfiky/halla-w-tasa"
+    },
+    {
+        "id": 2,
+        "name": "",
+        "info": "",
+        "details": "",
+        "skills": [],
+        "imgUrl": "",
+        "imgs": [],
+        "link": "",
+        "github": ""
+    },
+    {
+        "id": 3,
+        "name": "",
+        "info": "",
+        "details": "",
+        "skills": [],
+        "imgUrl": "",
+        "imgs": [],
+        "link": "",
+        "github": ""
+    },
+    {
+        "id": 4,
+        "name": "",
+        "info": "",
+        "details": "",
+        "skills": [],
+        "imgUrl": "",
+        "imgs": [],
+        "link": "",
+        "github": ""
+    },
+    {
+        "id": 5,
+        "name": "",
+        "info": "",
+        "details": "",
+        "skills": [],
+        "imgUrl": "",
+        "imgs": [],
+        "link": "",
+        "github": ""
+    },
+    {
+        "id": 6,
+        "name": "",
+        "info": "",
+        "details": "",
+        "skills": [],
+        "imgUrl": "",
+        "imgs": [],
+        "link": "",
+        "github": ""
+    },
+    {
+        "id": 7,
+        "name": "",
+        "info": "",
+        "details": "",
+        "skills": [],
+        "imgUrl": "",
+        "imgs": [],
+        "link": "",
+        "github": ""
+    },
+    {
+        "id": 8,
+        "name": "",
+        "info": "",
+        "details": "",
+        "skills": [],
+        "imgUrl": "",
+        "imgs": [],
+        "link": "",
+        "github": ""
+    },
+    {
+        "id": 9,
+        "name": "",
+        "info": "",
+        "details": "",
+        "skills": [],
+        "imgUrl": "",
+        "imgs": [],
+        "link": "",
+        "github": ""
+    },
+    {
+        "id": 10,
+        "name": "",
+        "info": "",
+        "details": "",
+        "skills": [],
+        "imgUrl": "",
+        "imgs": [],
+        "link": "",
+        "github": ""
+    },
+    {
+        "id": 11,
+        "name": "",
+        "info": "",
+        "details": "",
+        "skills": [],
+        "imgUrl": "",
+        "imgs": [],
+        "link": "",
+        "github": ""
+    },
+    {
+        "id": 12,
+        "name": "",
+        "info": "",
+        "details": "",
+        "skills": [],
+        "imgUrl": "",
+        "imgs": [],
+        "link": "",
+        "github": ""
+    },
+    {
+        "id": 13,
+        "name": "",
+        "info": "",
+        "details": "",
+        "skills": [],
+        "imgUrl": "",
+        "imgs": [],
+        "link": "",
+        "github": ""
+    },
+    {
+        "id": 14,
+        "name": "",
+        "info": "",
+        "details": "",
+        "skills": [],
+        "imgUrl": "",
+        "imgs": [],
+        "link": "",
+        "github": ""
+    },
+    {
+        "id": 15,
+        "name": "",
+        "info": "",
+        "details": "",
+        "skills": [],
+        "imgUrl": "",
+        "imgs": [],
+        "link": "",
+        "github": ""
     }
     
     
