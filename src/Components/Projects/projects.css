@@ -39,9 +39,9 @@
 
 .projects .projects-row .project{
     width: 286px;
+    height: auto;
     position: relative;
     overflow: hidden;
-    transition: all .7s ease-in-out;
 }
 
 .projects .projects-row .project img{

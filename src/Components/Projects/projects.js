@@ -21,15 +21,22 @@ function Projects() {
 
         all_projects.forEach(project =>{
           if(!project.classList.contains(li.dataset.filter)){
-            project.style.opacity = "0";
+           project.style.transform = "scale(0)";
             setTimeout(()=>{
               project.style.display = "none";
-            },700);
+            },300);
           }else{
-            project.style.opacity = "1";
+            project.style.transform = "scale(1)";
             setTimeout(()=>{
               project.style.display = "block";
-            },700);
+            },300);
+
+            // إبقى إعملها بال translate 
+            // بحيث يبقوا يطيروا فى أى إتجاه لو مش الفلتر المختار , ويرجعوا لو هو
+            // أو بص لما تدوس خلى مله يحصل له scale(0)
+            // والى تبعنا بس اللى يحصل لهم scale(1)
+            // بس طبعا ده كله بعدين
+
           }
         });
 
