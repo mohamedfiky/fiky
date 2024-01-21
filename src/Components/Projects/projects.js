@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
 import "./projects.css";
-import Jaee from "./../../assets/images/projects-imgs/halla-w-tasa-1.png";
 import Active from "./active.png";
 import Jackson from "./jackson.png";
 
@@ -64,7 +63,7 @@ function Projects() {
 
           <div className="project all html">
             <div className="project-info">
-              <img src="projects-imgs/halla-w-tasa-1.png" />
+              <img src="projects-imgs/halla-w-tasa.png" />
               <div className="project-links">
                 <a href="#1">Details</a>
                 <a href="#2">Link</a>
@@ -109,7 +108,7 @@ function Projects() {
           </div>
           <div className="project all html">
             <div className="project-info">
-              <img src={Jaee} />
+              <img src="projects-imgs/halla-w-tasa.png" />
               <div className="project-links">
                 <a href="#1"></a>
                 <a href="#2"></a>

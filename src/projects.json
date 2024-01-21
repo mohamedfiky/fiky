@@ -2,10 +2,11 @@
     {
         "id": 1,
         "name": "Halla-w-Tasa",
+        "filter": "html",
         "info": "A two-language multi-page E-Commerce Store.",
-        "details": "",
-        "skills": [],
-        "imgUrl": "projects-imgs/halla-w-tasa-1.png",
+        "details": "In this website I show my ability to work on E-commerce projects. The products are fetched through an API that I created to work as the back-end part of my front-end projects. To get cart functionality work properly I used Local Storage functions to get over the lack of Database.",
+        "skills": ["HTML", "CSS", "JavaScript", "Bootstrap v 5.0.2", "API & JSON", "Local Storage"],
+        "imgUrl": "projects-imgs/halla-w-tasa.png",
         "imgs": [
                     "projects-imgs/halla-w-tasa-1.png",
                     "projects-imgs/halla-w-tasa-2.png",
@@ -17,6 +18,7 @@
     {
         "id": 2,
         "name": "",
+        "filter": "",
         "info": "",
         "details": "",
         "skills": [],
@@ -28,6 +30,7 @@
     {
         "id": 3,
         "name": "",
+        "filter": "",
         "info": "",
         "details": "",
         "skills": [],
@@ -39,6 +42,7 @@
     {
         "id": 4,
         "name": "",
+        "filter": "",
         "info": "",
         "details": "",
         "skills": [],
@@ -50,6 +54,7 @@
     {
         "id": 5,
         "name": "",
+        "filter": "",
         "info": "",
         "details": "",
         "skills": [],
@@ -61,6 +66,7 @@
     {
         "id": 6,
         "name": "",
+        "filter": "",
         "info": "",
         "details": "",
         "skills": [],
@@ -72,6 +78,7 @@
     {
         "id": 7,
         "name": "",
+        "filter": "",
         "info": "",
         "details": "",
         "skills": [],
@@ -83,6 +90,7 @@
     {
         "id": 8,
         "name": "",
+        "filter": "",
         "info": "",
         "details": "",
         "skills": [],
@@ -94,6 +102,7 @@
     {
         "id": 9,
         "name": "",
+        "filter": "",
         "info": "",
         "details": "",
         "skills": [],
@@ -105,6 +114,7 @@
     {
         "id": 10,
         "name": "",
+        "filter": "",
         "info": "",
         "details": "",
         "skills": [],
@@ -116,6 +126,7 @@
     {
         "id": 11,
         "name": "",
+        "filter": "",
         "info": "",
         "details": "",
         "skills": [],
@@ -127,6 +138,7 @@
     {
         "id": 12,
         "name": "",
+        "filter": "",
         "info": "",
         "details": "",
         "skills": [],
@@ -138,6 +150,7 @@
     {
         "id": 13,
         "name": "",
+        "filter": "",
         "info": "",
         "details": "",
         "skills": [],
@@ -149,6 +162,7 @@
     {
         "id": 14,
         "name": "",
+        "filter": "",
         "info": "",
         "details": "",
         "skills": [],
@@ -160,6 +174,7 @@
     {
         "id": 15,
         "name": "",
+        "filter": "",
         "info": "",
         "details": "",
         "skills": [],
