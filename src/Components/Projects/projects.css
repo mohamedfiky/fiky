@@ -35,6 +35,13 @@
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    /* animation: scale_animation 4s; */
+}
+
+@keyframes scale_animation {
+    0% {transform: scale(1);}
+    50% {transform: scale(0);}
+    100% {transform: scale(1);}
 }
 
 .projects .projects-row .project{
