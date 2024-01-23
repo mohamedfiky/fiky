@@ -21,24 +21,24 @@ function Projects() {
 
         li.classList.add("active");
 
-        projects_row.style.animation = "scale_animation 1.4s";
+        projects_row.style.animation = "gallery_animation 1s";
 
         setTimeout(()=>{
           projects_row.style.animation = "none";
-        },1400);
+        },1000);
 
         all_projects.forEach(project =>{
 
           if(!project.classList.contains(li.dataset.filter)){
             setTimeout(()=>{
               project.style.display = "none";
-            },700);
+            },500);
           }
 
           else{
             setTimeout(()=>{
               project.style.display = "block";
-            },700);
+            },500);
           }
 
         });

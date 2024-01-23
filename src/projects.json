@@ -17,27 +17,35 @@
     },
     {
         "id": 2,
-        "name": "",
-        "filter": "",
-        "info": "",
-        "details": "",
-        "skills": [],
-        "imgUrl": "",
-        "imgs": [],
-        "link": "",
-        "github": ""
+        "name": "Active-React",
+        "filter": "react",
+        "info": "A multi-page company website",
+        "details": "This website shows my ability to work on React JS projects. The website has multible pages, I used React Router library to route different paths. The content of two pages(Portfolio and Blog) is fetched from an external API using Axios.",
+        "skills": ["React", "React Router", "React Hooks(useState, useEffect)", "Axios & API & JSON"],
+        "imgUrl": "projects-imgs/active.png",
+        "imgs": [
+                    "projects-imgs/active-1.png",
+                    "projects-imgs/active-2.png",
+                    "projects-imgs/active-3.png"
+                ],
+        "link": "https://active-react.onrender.com",
+        "github": "https://github.com/mohamedfiky/active-react"
     },
     {
         "id": 3,
-        "name": "",
-        "filter": "",
-        "info": "",
-        "details": "",
-        "skills": [],
-        "imgUrl": "",
-        "imgs": [],
-        "link": "",
-        "github": ""
+        "name": "Jackson",
+        "filter": "wordpress",
+        "info": "A multi-page company website",
+        "details": "In this website I show my ability to work on WordPress projects using Elementor plugin. The content of Portfolio page is fetched from an external API using XMLHttpRequest. The Contact Us page form works properly using WPForms and WP Mail SMTP plugins.",
+        "skills": ["ًWordPress", "Elementor", "XMLHttpRequest & API & JSON", "WPForms & WP Mail SMTP", "HTML & CSS"],
+        "imgUrl": "projects-imgs/jackson.png",
+        "imgs": [
+                    "projects-imgs/jackson-1.png",
+                    "projects-imgs/jackson-2.png",
+                    "projects-imgs/jackson-3.png"
+                ],
+        "link": "https://jackson-inc.000webhostapp.com",
+        "github": null
     },
     {
         "id": 4,
