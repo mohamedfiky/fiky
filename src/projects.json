@@ -3,8 +3,8 @@
         "id": 1,
         "name": "Halla-w-Tasa",
         "filter": "html",
-        "info": "A two-language multi-page E-Commerce Store.",
-        "details": "In this website I show my ability to work on E-commerce projects. The products are fetched through an API that I created to work as the back-end part of my front-end projects. To get cart functionality work properly I used Local Storage functions to get over the lack of Database.",
+        "info": "A two-language multi-page E-Commerce Store",
+        "details": "In this website I show my ability to work on E-commerce projects. The products are fetched through an API that I created to work as the back-end of my front-end projects. To get cart functionality work properly I used Local Storage functions to get over the lack of Database.",
         "skills": ["HTML", "CSS", "JavaScript", "Bootstrap v 5.0.2", "API & JSON", "Local Storage"],
         "imgUrl": "projects-imgs/halla-w-tasa.png",
         "imgs": [
@@ -36,7 +36,7 @@
         "name": "Jackson",
         "filter": "wordpress",
         "info": "A multi-page company website",
-        "details": "In this website I show my ability to work on WordPress projects using Elementor plugin. The content of Portfolio page is fetched from an external API using XMLHttpRequest. The Contact Us page form works properly using WPForms and WP Mail SMTP plugins.",
+        "details": "In this website I show my ability to work on WordPress projects using Elementor plugin. The content of Portfolio page is fetched from an external API using XMLHttpRequest. The Contact Us page form works properly using WPForms and WP Mail SMTP plugins. This website's design is cloned from another site (link provided in the footer).",
         "skills": ["ًWordPress", "Elementor", "XMLHttpRequest & API & JSON", "WPForms & WP Mail SMTP", "HTML & CSS"],
         "imgUrl": "projects-imgs/jackson.png",
         "imgs": [
@@ -49,75 +49,99 @@
     },
     {
         "id": 4,
-        "name": "",
-        "filter": "",
-        "info": "",
-        "details": "",
-        "skills": [],
-        "imgUrl": "",
-        "imgs": [],
-        "link": "",
-        "github": ""
+        "name": "JAEE",
+        "filter": "html",
+        "info": "A Faucet Company website",
+        "details": "This website, created for a freelancing client, marks my first paid job ever. This website's design is cloned from another site (link provided in the footer).",
+        "skills": ["HTML", "CSS", "JavaScript"],
+        "imgUrl": "projects-imgs/jaee.png",
+        "imgs": [
+                    "projects-imgs/jaee-1.png",
+                    "projects-imgs/jaee-2.png",
+                    "projects-imgs/jaee-3.png"
+                ],
+        "link": "https://jaee-faucet.onrender.com",
+        "github": "https://github.com/mohamedfiky/jaee"
     },
     {
         "id": 5,
-        "name": "",
-        "filter": "",
-        "info": "",
-        "details": "",
-        "skills": [],
-        "imgUrl": "",
-        "imgs": [],
-        "link": "",
-        "github": ""
+        "name": "Documentarea",
+        "filter": "html",
+        "info": "A website for documentary movies",
+        "details": "A simple layout for a documentary movies website with dark and light modes for user preferences. The movies are fetched through an API that I created as the back-end for my front-end projects.",
+        "skills": ["HTML", "CSS", "JavaScript", "API & JSON"],
+        "imgUrl": "projects-imgs/documentarea.png",
+        "imgs": [
+                    "projects-imgs/documentarea-1.png",
+                    "projects-imgs/documentarea-2.png",
+                    "projects-imgs/documentarea-3.png"
+                ],
+        "link": "https://documentarea.onrender.com",
+        "github": "https://github.com/mohamedfiky/documentarea"
     },
     {
         "id": 6,
-        "name": "",
-        "filter": "",
-        "info": "",
-        "details": "",
-        "skills": [],
-        "imgUrl": "",
-        "imgs": [],
-        "link": "",
-        "github": ""
+        "name": "Abbasscrypto",
+        "filter": "html",
+        "info": "A portfolio website",
+        "details": "This project is for a client who asked me to fix his website and add some new features (the code is not entirely mine).",
+        "skills": ["HTML", "CSS", "JavaScript"],
+        "imgUrl": "projects-imgs/abbas.png",
+        "imgs": [
+                    "projects-imgs/abbas-1.png",
+                    "projects-imgs/abbas-2.png",
+                    "projects-imgs/abbas-3.png"
+                ],
+        "link": "https://abbasscrypto.onrender.com",
+        "github": "https://github.com/mohamedfiky/abbasscrypto"
     },
     {
         "id": 7,
-        "name": "",
-        "filter": "",
-        "info": "",
-        "details": "",
-        "skills": [],
-        "imgUrl": "",
-        "imgs": [],
-        "link": "",
-        "github": ""
+        "name": "Smart One",
+        "filter": "html",
+        "info": "A portfolio Landing Page",
+        "details": "This website features an option box that allows users to choose a theme color and customize other options for their optimal experience. The selected preferences are saved in the user's local storage, ensuring they find their preferred settings upon returning.",
+        "skills": ["HTML", "CSS", "JavaScript", "Local Storage"],
+        "imgUrl": "projects-imgs/smart.png",
+        "imgs": [
+                    "projects-imgs/smart-1.png",
+                    "projects-imgs/smart-2.png",
+                    "projects-imgs/smart-3.png"
+                ],
+        "link": "https://smart-one.onrender.com",
+        "github": "https://github.com/mohamedfiky/smart-one"
     },
     {
         "id": 8,
-        "name": "",
-        "filter": "",
-        "info": "",
-        "details": "",
-        "skills": [],
-        "imgUrl": "",
-        "imgs": [],
-        "link": "",
-        "github": ""
+        "name": "Fresco Restaurant",
+        "filter": "wordpress",
+        "info": "An Italian food restaurant website",
+        "details": "Nothing fancy here; it's just one of the WordPress Starter Templates. I just modified it a little bit using the Elementor plugin.",
+        "skills": ["ًWordPress", "Elementor", "Starter Templates"],
+        "imgUrl": "projects-imgs/fresco.png",
+        "imgs": [
+                    "projects-imgs/fresco-1.png",
+                    "projects-imgs/fresco-2.png",
+                    "projects-imgs/fresco-3.png"
+                ],
+        "link": "https://fresco-foods.000webhostapp.com/",
+        "github": null
     },
     {
         "id": 9,
-        "name": "",
-        "filter": "",
-        "info": "",
-        "details": "",
-        "skills": [],
-        "imgUrl": "",
-        "imgs": [],
-        "link": "",
-        "github": ""
+        "name": "Weather App",
+        "filter": "react",
+        "info": "Web app to know the weather",
+        "details": "This React web app depends on the (openweathermap.org) API, which allows the user to search for the weather of a chosen city.",
+        "skills": ["React", "React Hooks(useState)", "Fetch & API & JSON"],
+        "imgUrl": "projects-imgs/weather.png",
+        "imgs": [
+                    "projects-imgs/weather-1.png",
+                    "projects-imgs/weather-2.png",
+                    "projects-imgs/weather-3.png"
+                ],
+        "link": "https://weather-now-react.onrender.com",
+        "github": "https://github.com/mohamedfiky/weather-react"
     },
     {
         "id": 10,
