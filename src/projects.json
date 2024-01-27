@@ -145,39 +145,47 @@
     },
     {
         "id": 10,
-        "name": "",
-        "filter": "",
-        "info": "",
-        "details": "",
-        "skills": [],
-        "imgUrl": "",
-        "imgs": [],
-        "link": "",
-        "github": ""
+        "name": "Tanatus Studio",
+        "filter": "html",
+        "info": "A landing page for a design company",
+        "details": "A simple one-page website for a design studio based on jQuery, the well-known JavaScript library.",
+        "skills": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "imgUrl": "projects-imgs/tanatus-studio.png",
+        "imgs": [
+                    "projects-imgs/tanatus-studio-1.png",
+                    "projects-imgs/tanatus-studio-2.png",
+                    "projects-imgs/tanatus-studio-3.png"
+                ],
+        "link": "https://tanatus-studio.onrender.com",
+        "github": "https://github.com/mohamedfiky/tanatus-studio"
     },
     {
         "id": 11,
-        "name": "",
-        "filter": "",
-        "info": "",
-        "details": "",
-        "skills": [],
+        "name": "Los Nenitos",
+        "filter": "html",
+        "info": "A landing page for kids' clothing",
+        "details": "A simple one-page kids' clothing website. The design is inspired by a template from Canva.com.",
+        "skills": ["HTML", "CSS"],
         "imgUrl": "",
         "imgs": [],
-        "link": "",
-        "github": ""
+        "link": "https://los-nenitos.onrender.com",
+        "github": "https://github.com/mohamedfiky/los-nenitos"
     },
     {
         "id": 12,
-        "name": "",
-        "filter": "",
-        "info": "",
-        "details": "",
-        "skills": [],
-        "imgUrl": "",
-        "imgs": [],
-        "link": "",
-        "github": ""
+        "name": "EliteCorp",
+        "filter": "html",
+        "info": "A landing page for a development agency",
+        "details": "A simple one-page website for a development agency based on Bootstrap and jQuery, the well-known JavaScript library.",
+        "skills": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "imgUrl": "projects-imgs/elite-corp.png",
+        "imgs": [
+                    "projects-imgs/elite-corp-1.png",
+                    "projects-imgs/elite-corp-2.png",
+                    "projects-imgs/elite-corp-3.png"
+                ],
+        "link": "https://elitecorp.onrender.com",
+        "github": "https://github.com/mohamedfiky/elitecorp"
     },
     {
         "id": 13,
