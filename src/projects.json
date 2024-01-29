@@ -145,22 +145,6 @@
     },
     {
         "id": 10,
-        "name": "Tanatus Studio",
-        "filter": "html",
-        "info": "A landing page for a design company",
-        "details": "A simple one-page website for a design studio based on jQuery, the well-known JavaScript library.",
-        "skills": ["HTML", "CSS", "JavaScript", "jQuery"],
-        "imgUrl": "projects-imgs/tanatus-studio.png",
-        "imgs": [
-                    "projects-imgs/tanatus-studio-1.png",
-                    "projects-imgs/tanatus-studio-2.png",
-                    "projects-imgs/tanatus-studio-3.png"
-                ],
-        "link": "https://tanatus-studio.onrender.com",
-        "github": "https://github.com/mohamedfiky/tanatus-studio"
-    },
-    {
-        "id": 11,
         "name": "Los Nenitos",
         "filter": "html",
         "info": "A landing page for kids' clothing",
@@ -174,6 +158,22 @@
                 ],
         "link": "https://los-nenitos.onrender.com",
         "github": "https://github.com/mohamedfiky/los-nenitos"
+    },
+    {
+        "id": 11,
+        "name": "Tanatus Studio",
+        "filter": "html",
+        "info": "A landing page for a design company",
+        "details": "A simple one-page website for a design studio based on jQuery, the well-known JavaScript library.",
+        "skills": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "imgUrl": "projects-imgs/tanatus-studio.png",
+        "imgs": [
+                    "projects-imgs/tanatus-studio-1.png",
+                    "projects-imgs/tanatus-studio-2.png",
+                    "projects-imgs/tanatus-studio-3.png"
+                ],
+        "link": "https://tanatus-studio.onrender.com",
+        "github": "https://github.com/mohamedfiky/tanatus-studio"
     } 
     
 ]

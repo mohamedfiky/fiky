@@ -9,12 +9,13 @@ function Projects() {
   useEffect(() => {
     
     setProjects(projects_data);
-
+    
   }, []);
 
 
   ////////////////////////////
 
+setTimeout(()=>{
   let filters_lis = document.querySelectorAll(".filters li");
   let all_projects = document.querySelectorAll(".projects-row .project");
   let projects_row = document.querySelector(".projects-row");
@@ -54,6 +55,7 @@ function Projects() {
     });
     
   });
+},100)
 
   const portfolio_items = projects.map(project =>{
     return(
