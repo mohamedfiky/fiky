@@ -2,6 +2,7 @@
     {
         "id": 1,
         "name": "Halla-w-Tasa",
+        "param": "halla-w-tasa",
         "filter": "html",
         "info": "A two-language multi-page E-Commerce Store",
         "details": "In this website I show my ability to work on E-commerce projects. The products are fetched through an API that I created to work as the back-end of my front-end projects. To get cart functionality work properly I used Local Storage functions to get over the lack of Database.",
@@ -18,6 +19,7 @@
     {
         "id": 2,
         "name": "Active-React",
+        "param": "active-react",
         "filter": "react",
         "info": "A multi-page company website",
         "details": "This website shows my ability to work on React JS projects. The website has multible pages, I used React Router library to route different paths. The content of two pages(Portfolio and Blog) is fetched from an external API using Axios.",
@@ -34,6 +36,7 @@
     {
         "id": 3,
         "name": "Jackson",
+        "param": "jackson",
         "filter": "wordpress",
         "info": "A multi-page company website",
         "details": "In this website I show my ability to work on WordPress projects using Elementor plugin. The content of Portfolio page is fetched from an external API using XMLHttpRequest. The Contact Us page form works properly using WPForms and WP Mail SMTP plugins. This website's design is cloned from another site (link provided in the footer).",
@@ -50,6 +53,7 @@
     {
         "id": 4,
         "name": "JAEE",
+        "param": "jaee",
         "filter": "html",
         "info": "A Faucet Company website",
         "details": "This website, created for a freelancing client, marks my first paid job ever. This website's design is cloned from another site (link provided in the footer).",
@@ -66,6 +70,7 @@
     {
         "id": 5,
         "name": "Documentarea",
+        "param": "documentarea",
         "filter": "html",
         "info": "A website for documentary movies",
         "details": "A simple layout for a documentary movies website with dark and light modes for user preferences. The movies are fetched through an API that I created as the back-end for my front-end projects.",
@@ -82,6 +87,7 @@
     {
         "id": 6,
         "name": "Abbasscrypto",
+        "param": "abbasscrypto",
         "filter": "html",
         "info": "A portfolio website",
         "details": "This project is for a client who asked me to fix his website and add some new features (the code is not entirely mine).",
@@ -98,6 +104,7 @@
     {
         "id": 7,
         "name": "Smart One",
+        "param": "smart-one",
         "filter": "html",
         "info": "A portfolio Landing Page",
         "details": "This website features an option box that allows users to choose a theme color and customize other options for their optimal experience. The selected preferences are saved in the user's local storage, ensuring they find their preferred settings upon returning.",
@@ -114,6 +121,7 @@
     {
         "id": 8,
         "name": "Fresco Restaurant",
+        "param": "fresco",
         "filter": "wordpress",
         "info": "An Italian food restaurant website",
         "details": "Nothing fancy here; it's just one of the WordPress Starter Templates. I just modified it a little bit using the Elementor plugin.",
@@ -130,6 +138,7 @@
     {
         "id": 9,
         "name": "Weather App",
+        "param": "weather-app",
         "filter": "react",
         "info": "Web app to know the weather",
         "details": "This React web app depends on the (openweathermap.org) API, which allows the user to search for the weather of a chosen city.",
@@ -146,6 +155,7 @@
     {
         "id": 10,
         "name": "Los Nenitos",
+        "param": "los-nenitos",
         "filter": "html",
         "info": "A landing page for kids' clothing",
         "details": "A simple one-page kids' clothing website. The design is inspired by a template from Canva.com.",
@@ -162,6 +172,7 @@
     {
         "id": 11,
         "name": "Tanatus Studio",
+        "param": "tanatus-studio",
         "filter": "html",
         "info": "A landing page for a design company",
         "details": "A simple one-page website for a design studio based on jQuery, the well-known JavaScript library.",

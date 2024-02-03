@@ -1,4 +1,5 @@
 import React, {useState ,useEffect} from 'react';
+import { Link } from 'react-router-dom';
 import projects_data from "./../../projects.json";
 import "./projects.css";
 
@@ -63,7 +64,7 @@ setTimeout(()=>{
           <div className="project-info">
             <img src={project.imgUrl}  alt={project.name} />
             <div className="project-links">
-              <a key={project.id} className="details" href={`#${project.id}`}>Details</a>
+              <Link to={`/project-details/${project.param}`}  className="details">Details</Link>
               <a target="_blank" href={project.link}>Link</a>
             </div>
           </div>
