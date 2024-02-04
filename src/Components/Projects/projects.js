@@ -16,47 +16,47 @@ function Projects() {
 
   ////////////////////////////
 
-setTimeout(()=>{
-  let filters_lis = document.querySelectorAll(".filters li");
-  let all_projects = document.querySelectorAll(".projects-row .project");
-  let projects_row = document.querySelector(".projects-row");
+  setTimeout(()=>{
+    let filters_lis = document.querySelectorAll(".filters li");
+    let all_projects = document.querySelectorAll(".projects-row .project");
+    let projects_row = document.querySelector(".projects-row");
 
-  filters_lis.forEach(li =>{
+    filters_lis.forEach(li =>{
 
-    li.addEventListener("click", ()=>{
+      li.addEventListener("click", ()=>{
 
-      filters_lis.forEach(l =>{
-        l.classList.remove("active");
+        filters_lis.forEach(l =>{
+          l.classList.remove("active");
+        });
+
+        li.classList.add("active");
+
+        projects_row.style.animation = "gallery_animation 1s";
+
+        setTimeout(()=>{
+          projects_row.style.animation = "none";
+        },1000);
+
+        all_projects.forEach(project =>{
+
+          if(!project.classList.contains(li.dataset.filter)){
+            setTimeout(()=>{
+              project.style.display = "none";
+            },500);
+          }
+
+          else{
+            setTimeout(()=>{
+              project.style.display = "block";
+            },500);
+          }
+
+        });
+
       });
-
-      li.classList.add("active");
-
-      projects_row.style.animation = "gallery_animation 1s";
-
-      setTimeout(()=>{
-        projects_row.style.animation = "none";
-      },1000);
-
-      all_projects.forEach(project =>{
-
-        if(!project.classList.contains(li.dataset.filter)){
-          setTimeout(()=>{
-            project.style.display = "none";
-          },500);
-        }
-
-        else{
-          setTimeout(()=>{
-            project.style.display = "block";
-          },500);
-        }
-
-      });
-
+      
     });
-    
-  });
-},100)
+  },100)
 
   const portfolio_items = projects.map(project =>{
     return(

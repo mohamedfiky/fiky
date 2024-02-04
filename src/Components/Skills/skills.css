@@ -1,6 +1,6 @@
 
 .skills{
-    background-color: #f5f8fd;
+    background-color: var(--grey-background);
 }
 
 .skills .all-skills{

@@ -1,5 +1,5 @@
 .contact-home{
-    background-color: #f5f8fd;
+    background-color: var(--grey-background);
     display: flex;
     align-items: center;
     justify-content: space-around;
