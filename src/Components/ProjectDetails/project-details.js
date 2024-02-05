@@ -13,8 +13,16 @@ function ProjectDetails() {
   useEffect(() => {
     
     setProjects(projects_data);
+
+    //let footer = document.querySelector("footer");
+    //let footer_height = window.getComputedStyle(footer).getPropertyValue("height");
+    // let titleArea = document.querySelector(".title-area");
+    // let unwanted_height = footer_height + titleArea_height ;
+    //let titleArea_height = window.getComputedStyle(titleArea_Ref.current).getPropertyValue("height");
+    //document.querySelector(".not-found").style.height = `calc(100vh - ${titleArea_height}px)`
     
   }, []);
+
 
   const {projectParam} = useParams();
 
@@ -22,6 +30,7 @@ function ProjectDetails() {
 
     if(projectParam == project.param){
       document.querySelector(".not-found").style.display = "none";
+      
       return(
         <div key={project.id} className={`project all ${project.filter}`}>
             <div className="project-info">
@@ -40,15 +49,14 @@ return (
   <div className="project-details">
     <div className="title-area special-container">
       <h2>Project Details</h2>
-      <NavLink exact to="/projects">Back To Projects</NavLink>
+      <NavLink exact to="/projects">Projects Page</NavLink>
     </div>
-    <div className="not-found">
+    <div className="not-found container">
       <h2>There is no such project!</h2>
+      <NavLink exact to="/projects">Back To Projects Page</NavLink>
     </div>
     
-    <h1>project-details {projectParam}</h1>
     
-    {portfolio_item}
 
   </div>
 )

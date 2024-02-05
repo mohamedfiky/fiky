@@ -1,6 +1,20 @@
-.title-area{
+.project-details .title-area{
     background-color: var(--grey-background);
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.project-details .not-found{
+    text-align: center;
+    /* height: calc(100vh - 100px); */
+}
+
+.project-details .not-found h2{
+    font-size: 26px;
+}
+
+.project-details .not-found a{
+    font-size: 20px;
+    color: var(--dark-blue);
 }
