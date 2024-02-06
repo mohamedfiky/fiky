@@ -37,6 +37,30 @@
     border-bottom: 1px solid var(--dark-blue);
 }
 
+.project-details .project-details-area .carousel{
+    height:200px;
+    border: 1px solid #00f;
+}
+
+
+/************************/
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+/************************/
+
 
 
 /*****************************/

@@ -3,6 +3,12 @@ import { useParams, NavLink } from 'react-router-dom';
 import projects_data from "./../../projects.json";
 import "./project-details.css";
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Autoplay, Pagination } from 'swiper/modules';
+
+
 
 
 
@@ -57,6 +63,31 @@ return (
     </div>
     <div className="project-details-area container">
       <h2 className="sub-pages-heading">Project Details</h2>
+      <div className="carousel">
+        <Swiper
+          spaceBetween={70}
+          centeredSlides={true}
+          autoplay={{
+            delay: 10000,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Autoplay, Pagination]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <img src="../projects-imgs/fresco-1.png"></img>
+          </SwiperSlide>
+          <SwiperSlide>
+          <img src="../projects-imgs/fresco-2.png"></img>
+          </SwiperSlide>
+          <SwiperSlide>
+          <img src="../projects-imgs/fresco-3.png"></img>
+          </SwiperSlide>
+        </Swiper>
+      </div>
     </div>
     
     
