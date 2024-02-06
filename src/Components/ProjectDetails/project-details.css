@@ -5,16 +5,66 @@
     justify-content: space-between;
 }
 
+.project-details .title-area a{
+    color: var(--dark-blue);
+    font-weight: bold;
+    border-bottom: 1px solid transparent;
+}
+
+.project-details .title-area a:hover{
+    border-bottom: 1px solid var(--dark-blue);
+}
+
 .project-details .not-found{
     text-align: center;
-    /* height: calc(100vh - 100px); */
+    height: calc(100vh - 130.6667px);
 }
 
 .project-details .not-found h2{
     font-size: 26px;
+    margin-bottom: 10px;
 }
 
 .project-details .not-found a{
     font-size: 20px;
     color: var(--dark-blue);
+    opacity: .7;
+    border-bottom: 1px solid transparent;
 }
+
+.project-details .not-found a:hover{
+    opacity: 1;
+    border-bottom: 1px solid var(--dark-blue);
+}
+
+
+
+/*****************************/
+
+
+@media (max-width: 992px){
+
+    .project-details .title-area a{
+        margin-right: 30px;
+    }
+
+  }
+
+
+  @media (max-width: 560px){
+
+    .project-details .title-area{
+        flex-direction: column;
+    }
+
+    .project-details .title-area a{
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .project-details .not-found{
+        text-align: center;
+        height: calc(100vh - 195.333px);
+    }
+  
+  }

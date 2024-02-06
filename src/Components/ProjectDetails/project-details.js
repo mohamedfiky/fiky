@@ -55,6 +55,9 @@ return (
       <h2>There is no such project!</h2>
       <NavLink exact to="/projects">Back To Projects Page</NavLink>
     </div>
+    <div className="project-details-area container">
+      <h2 className="sub-pages-heading">Project Details</h2>
+    </div>
     
     
 
