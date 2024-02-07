@@ -53,19 +53,22 @@ function ProjectDetails() {
 
 return (
   <div className="project-details">
+
     <div className="title-area special-container">
       <h2>Project Details</h2>
       <NavLink exact to="/projects">Projects Page</NavLink>
     </div>
+
     <div className="not-found container">
       <h2>There is no such project!</h2>
       <NavLink exact to="/projects">Back To Projects Page</NavLink>
     </div>
+
     <div className="project-details-area container">
-      <h2 className="sub-pages-heading">Project Details</h2>
+      <h2 className="sub-pages-heading">Fresco Restaurant</h2>
       <div className="carousel">
         <Swiper
-          spaceBetween={70}
+          spaceBetween={30}
           centeredSlides={true}
           autoplay={{
             delay: 10000,
@@ -81,10 +84,10 @@ return (
             <img src="../projects-imgs/fresco-1.png"></img>
           </SwiperSlide>
           <SwiperSlide>
-          <img src="../projects-imgs/fresco-2.png"></img>
+            <img src="../projects-imgs/fresco-2.png"></img>
           </SwiperSlide>
           <SwiperSlide>
-          <img src="../projects-imgs/fresco-3.png"></img>
+            <img src="../projects-imgs/fresco-3.png"></img>
           </SwiperSlide>
         </Swiper>
       </div>
