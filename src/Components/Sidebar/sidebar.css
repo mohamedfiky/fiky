@@ -4,7 +4,7 @@ aside {
     top: 0;
     left: 0;
     bottom: 0;
-    z-index: 7;
+    z-index: 100;
     width: 300px;
     padding: 0 15px;
     background: #040b14;

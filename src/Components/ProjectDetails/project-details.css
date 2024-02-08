@@ -37,12 +37,14 @@
     border-bottom: 1px solid var(--dark-blue);
 }
 
-/************************/
+/***** Swiper styles ******/
 
 .project-details .project-details-area .carousel{
     width: 80%;
     margin: auto;
     position: relative;
+    margin-bottom: 80px;
+    box-shadow: -5px 5px 15px #555;
 }
 
 .carousel .swiper {
@@ -75,8 +77,79 @@
     background-color: var(--main-blue);
   }
   
+/*********/
 
-/************************/
+.project-details .project-details-area .project-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-details .project-info .description{
+    width: 50%;
+}
+
+.project-details .project-info .description h3{
+    color: var(--dark-blue);
+    font-size: 22px;
+}
+
+.project-details .project-info .description h4{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.project-details .project-info .description p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.project-details .project-info .skills-links ul{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--dark-blue);
+    padding-top: 2px;
+    margin-bottom: 10px;
+}
+
+.project-details .project-info .skills-links ul li{
+    margin: 5px 2px 0px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.project-details .project-info .skills-links ul li i{
+    font-size: 16px;
+    color: var(--main-blue);;
+    display: flex;
+    align-items: center;
+}
+
+.project-details .project-info .skills-links .project-links span{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--dark-blue);
+    margin-top: 8px;
+}
+
+.project-details .project-info .skills-links .project-links span a{
+    font-weight: normal;
+    font-size: 16px;
+    color: var(--main-blue);
+    margin-left: 4px;
+    border-bottom: 1px solid #fff;
+}
+
+.project-details .project-info .skills-links .project-links span a:hover{
+    border-bottom: 1px solid var(--main-blue);
+    opacity: .7;
+}
+
 
 
 
