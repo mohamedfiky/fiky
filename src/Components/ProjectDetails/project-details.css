@@ -171,6 +171,17 @@
         width: 100%;
     }
 
+    .project-details .project-details-area .project-info{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .project-details .project-info .description{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
 }
 
 

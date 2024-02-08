@@ -39,14 +39,56 @@ function ProjectDetails() {
       document.querySelector(".not-found").style.display = "none";
       
       return(
-        <div key={project.id} className={`project all ${project.filter}`}>
-            <div className="project-info">
-              <img src={`../${project.imgUrl}`}  alt={project.name} />
+        <div className="project-details-area container">
+          <h2 className="sub-pages-heading">{project.name}</h2>
+          <div className="carousel">
+            <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 10000,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              modules={[Autoplay, Pagination]}
+              className="mySwiper"
+            >
+              {project.imgs.map((img, index)=>{
+                return(
+                  <SwiperSlide key={index}>
+                    <img src={`../${img}`} alt={project.name}></img>
+                  </SwiperSlide>
+                )
+              })}
+            </Swiper>
+          </div>
+          <div className="project-info">
+            <div className="description">
+              <h3>{project.name}</h3>
+              <h4>{project.info}</h4>
+              <p>{project.details}</p>
+            </div>
+            <div className="skills-links">
+              <ul className="project-skills">Skills: 
+                {project.skills.map((skill, index) => (
+                  <li key={index}><i><MdArrowForwardIos /></i><span>{skill}</span></li>
+                ))}
+              </ul>
               <div className="project-links">
-                <a target="_blank" href={project.link}>Link</a>
+                <span className="live-preview">Live Preview: 
+                  <a href={project.link} target="_blank">{project.name}</a>
+                </span>
+                {project.github && (
+                <span className="code">Code: 
+                  <a href={project.github} target="_blank">GitHub</a>
+                </span>
+              )}
               </div>
             </div>
           </div>
+      </div>
       );
     }
 
@@ -65,7 +107,7 @@ return (
       <NavLink exact to="/projects">Back To Projects Page</NavLink>
     </div>
 
-    <div className="project-details-area container">
+    {/* <div className="project-details-area container">
       <h2 className="sub-pages-heading">Fresco Restaurant</h2>
       <div className="carousel">
         <Swiper
@@ -114,7 +156,9 @@ return (
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
+
+    {portfolio_item}
     
     
 
