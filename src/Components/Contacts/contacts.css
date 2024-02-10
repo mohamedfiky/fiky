@@ -1,0 +1,88 @@
+.contacts .contacts-items{
+    margin-top: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap:30px;
+}
+
+.contacts .contacts-items .contact-box{
+    width:350px;
+    display: flex;
+    gap: 20px;
+}
+
+.contacts .contacts-items .contact-box i{
+    font-size: 32px;
+    width: 60px;
+    height: 60px;
+    background-color: var(--main-blue);
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    /* filter: grayscale(.3);     */
+}
+
+.contacts .contacts-items .contact-box.upwork i{
+    background-color: #108A00;
+    border: 2px solid #108A00;
+}
+
+.contacts .contacts-items .contact-box.upwork:hover i{
+    color: #108A00;
+    background-color: #fff;
+}
+
+.contacts .contacts-items .contact-box.linked-in i{
+    background-color: #0A66C2;
+    border: 2px solid #0A66C2;
+}
+
+.contacts .contacts-items .contact-box.linked-in:hover i{
+    color: #0A66C2;
+    background-color: #fff;
+}
+
+.contacts .contacts-items .contact-box.whatsapp i{
+    background-color: #28D368;
+    border: 2px solid #28D368;
+}
+
+.contacts .contacts-items .contact-box.whatsapp:hover i{
+    color: #28D368;
+    background-color: #fff;
+}
+
+.contacts .contacts-items .contact-box.e-mail i{
+    background-color: var(--main-blue);
+    border:  2px solid var(--main-blue);
+}
+
+.contacts .contacts-items .contact-box.e-mail:hover i{
+    color: var(--main-blue);
+    background-color: #fff;}
+
+.contacts .contacts-items .contact-box h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:var(--dark-blue);
+}
+
+.contacts .contacts-items .contact-box p{
+    line-height: 1.5;
+}
+
+.contacts .contacts-items .contact-box p a{
+    color: var(--main-blue);
+    margin-left: 4px;
+    border-bottom: 1px solid #fff;
+}
+
+.contacts .contacts-items .contact-box p a:hover{
+    opacity: .7;
+    border-bottom: 1px solid var(--main-blue);
+}

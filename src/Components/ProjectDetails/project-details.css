@@ -17,7 +17,7 @@
 
 .project-details .not-found{
     text-align: center;
-    height: calc(100vh - 130.6667px);
+    height: calc(100vh - 126.6667px);
 }
 
 .project-details .not-found h2{
@@ -44,6 +44,7 @@
     margin: auto;
     position: relative;
     margin-bottom: 80px;
+    margin-top: 30px;
     box-shadow: -5px 5px 15px #555;
 }
 
@@ -198,7 +199,7 @@
 
     .project-details .not-found{
         text-align: center;
-        height: calc(100vh - 195.333px);
+        height: calc(100vh - 184.6667px);
     }
   
 }

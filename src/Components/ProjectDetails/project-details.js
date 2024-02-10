@@ -4,6 +4,7 @@ import projects_data from "./../../projects.json";
 import "./project-details.css";
 import { MdArrowForwardIos } from "react-icons/md";
 
+/***** Swiper *****/
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -39,7 +40,7 @@ function ProjectDetails() {
       document.querySelector(".not-found").style.display = "none";
       
       return(
-        <div className="project-details-area container">
+        <div className="project-details-area container" key={project.id}>
           <h2 className="sub-pages-heading">{project.name}</h2>
           <div className="carousel">
             <Swiper
@@ -107,61 +108,8 @@ return (
       <NavLink exact to="/projects">Back To Projects Page</NavLink>
     </div>
 
-    {/* <div className="project-details-area container">
-      <h2 className="sub-pages-heading">Fresco Restaurant</h2>
-      <div className="carousel">
-        <Swiper
-          spaceBetween={30}
-          centeredSlides={true}
-          autoplay={{
-            delay: 10000,
-            disableOnInteraction: false,
-          }}
-          pagination={{
-            clickable: true,
-          }}
-          modules={[Autoplay, Pagination]}
-          className="mySwiper"
-        >
-          <SwiperSlide>
-            <img src="../projects-imgs/fresco-1.png"></img>
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="../projects-imgs/fresco-2.png"></img>
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="../projects-imgs/fresco-3.png"></img>
-          </SwiperSlide>
-        </Swiper>
-      </div>
-      <div className="project-info">
-        <div className="description">
-          <h3>Fresco Restaurant</h3>
-          <h4>An Italian food restaurant website</h4>
-          <p>In this website I show my ability to work on WordPress projects using Elementor plugin. The content of Portfolio page is fetched from an external API using XMLHttpRequest. The Contact Us page form works properly using WPForms and WP Mail SMTP plugins. This website's design is cloned from another site (link provided in the footer).</p>
-        </div>
-        <div className="skills-links">
-          <ul className="project-skills">Skills: 
-            <li><i><MdArrowForwardIos /></i><span>WordPress</span></li>
-            <li><i><MdArrowForwardIos /></i><span>Elementor</span></li>
-            <li><i><MdArrowForwardIos /></i><span>Starter Templates</span></li>
-          </ul>
-          <div className="project-links">
-            <span className="live-preview">Live Preview: 
-              <a href="https://fresco-foods.000webhostapp.com" target="_blank">Fresco Restaurant</a>
-            </span>
-            <span className="code">Code: 
-              <a href="https://github.com/mohamedfiky/weather-react" target="_blank">GitHub</a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div> */}
-
     {portfolio_item}
     
-    
-
   </div>
 )
 }
