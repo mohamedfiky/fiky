@@ -4,8 +4,6 @@ import { SiUpwork } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiWhatsapp } from "react-icons/si";
 import { MdOutlineEmail } from "react-icons/md";
-import { IoIosSend } from "react-icons/io";
-
 
 
 function Contacts() {
