@@ -3,7 +3,7 @@
 }
 
 .contact-form form{
-    width:450px;
+    width:500px;
     margin: 30px auto 10px;
 }
 
@@ -36,4 +36,62 @@
 .contact-form form input:focus::placeholder,
 .contact-form form textarea:focus::placeholder{
     opacity: .1;
+}
+
+.contact-form form .btn{
+    padding: 6px 16px;
+    color:#fff;
+    background-color: var(--main-blue);
+    border: 2px solid var(--main-blue);
+    border-radius: 4px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px auto 0;
+    cursor: pointer;
+}
+
+.contact-form form .btn:hover{
+    background-color:#fff;
+    color: var(--main-blue);
+}
+
+.contact-form form .btn:focus{
+    background-color:#fff;
+    color: var(--main-blue);
+    outline: 1px solid var(--main-blue);
+}
+
+.contact-form form .btn i{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+}
+
+@media(max-width: 750px){
+
+    .contact-form form{
+        width:80%;
+    }
+    
+}
+
+@media(max-width: 600px){
+
+    .contact-form form{
+        width:90%;
+    }
+    
+}
+
+@media(max-width: 480px){
+
+    .contact-form form{
+        width:100%;
+    }
+    
 }

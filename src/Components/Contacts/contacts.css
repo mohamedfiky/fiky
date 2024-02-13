@@ -3,12 +3,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-    gap:30px;
+    gap:40px 30px;
 }
 
 .contacts .contacts-items .contact-box{
-    width:350px;
+    width:300px;
     display: flex;
     gap: 20px;
 }
@@ -85,4 +84,16 @@
 .contacts .contacts-items .contact-box p a:hover{
     opacity: .7;
     border-bottom: 1px solid var(--main-blue);
+}
+
+
+/*******************************/
+
+@media(max-width: 750px){
+
+    .contacts .contacts-items .contact-box{
+        width:350px;
+
+    }
+    
 }
