@@ -10,9 +10,9 @@ function Form() {
             Send me a message
         </h2>
         <form className="form">
-            <input type="text" placeholder="Your Name" required></input>
-            <input type="email" placeholder="Your E-mail" required></input>
-            <textarea placeholder="Your Message" required></textarea>
+            <input type="text" name="name" placeholder="Your Name" required></input>
+            <input type="email" name="email" placeholder="Your E-mail" required></input>
+            <textarea name="message" placeholder="Your Message" required></textarea>
             <button type="submit" className="btn">Send Message <i><IoIosSend /></i></button>
         </form>
     </div>
