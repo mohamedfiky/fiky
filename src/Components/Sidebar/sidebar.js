@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import profileImg from "../../assets/images/profile.jpg";
 import { FaLinkedinIn, FaLaptopCode } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
-import { SiWhatsapp } from "react-icons/si";
+import { SiWhatsapp, SiUpwork  } from "react-icons/si";
 import { MdOutlineEmail } from "react-icons/md";
 import { BiHome, BiEnvelope } from "react-icons/bi";
 import { LiaFileDownloadSolid } from "react-icons/lia";
@@ -35,6 +35,7 @@ function Sidebar() {
             <a href="https://www.linkedin.com/in/mohamedfiky" target="_blank"><FaLinkedinIn /></a>
             <a href="https://github.com/mohamedfiky" target="_blank"><FiGithub /></a>
             <a href="https://wa.me/201558065883" target="_blank"><SiWhatsapp /></a>
+            <a href="https://www.upwork.com/freelancers/~0156ea85e28f600bc8" target="_blank"><SiUpwork /></a>
             <a href="mailto:fiky4work@gmail.com" target="_blank"><MdOutlineEmail /></a>
           </div>
         </div>
