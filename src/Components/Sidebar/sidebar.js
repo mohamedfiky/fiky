@@ -48,8 +48,12 @@ function Sidebar() {
           </ul>
         </nav>
 
-        
+      </div>
 
+      <div className="credits">
+        Design inspired by 
+        <a href="https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/"
+           target="_blank">bootstrapmade</a>
       </div>
 
     </aside>
