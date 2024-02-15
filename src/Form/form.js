@@ -17,12 +17,16 @@ function Form() {
       })
       .then(
         () => {
-          console.log('SUCCESS!');
-          e.target.reset();
-          document.querySelector(".error").style.display = "none";
+            e.target.reset();
+            document.querySelector(".error").style.display = "none";
+            document.querySelector(".success").style.display = "block";
+            setTimeout(()=>{
+                document.querySelector(".success").style.display = "none";
+            },7000);
         },
         (error) => {
-          console.log('FAILED...', error.text);
+            document.querySelector(".success").style.display = "none";
+            document.querySelector(".error").style.display = "block";
         },
       );
   };

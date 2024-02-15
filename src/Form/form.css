@@ -1,5 +1,6 @@
 .contact-form{
     background-color: var(--grey-background);
+    position: relative;
 }
 
 .contact-form form{
@@ -72,6 +73,35 @@
     margin-left: 4px;
 }
 
+.contact-form .success,
+.contact-form .error
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    margin: auto;
+    padding: 12px;
+    color:#fff;
+    text-align: center;
+    display: none;
+}
+
+.contact-form .success{
+    background-color: #186F65ee;
+}
+
+.contact-form .error{
+    background-color: #B2533Eee;
+}
+
+
+
+/************************/
+
+
+
 @media(max-width: 750px){
 
     .contact-form form{
@@ -79,6 +109,7 @@
     }
     
 }
+
 
 @media(max-width: 600px){
 
@@ -88,10 +119,21 @@
     
 }
 
+
 @media(max-width: 480px){
 
     .contact-form form{
         width:100%;
+    }
+    
+}
+
+@media(max-width: 350px){
+
+    .contact-form .success,
+    .contact-form .error
+    {
+        width: 100%;
     }
     
 }
