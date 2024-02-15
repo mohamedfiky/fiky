@@ -5,7 +5,7 @@ import Sidebar from './Components/Sidebar/sidebar.js';
 import MenuIcons from './Components/MenuIcons/menu-icons.js'; 
 import HomePage from "./Pages/Home-page/home.js";
 import ProjectsPage from "./Pages/Projects-page/projects-page.js";
-import ResumePage from "./Pages/Resume-page/resume.js";
+import ResumePage from "./Pages/Resume-page/resume-page.js";
 import ContactsPage from "./Pages/Contacts-page/contacts-page.js";
 import ProjectDetailsPage from "./Pages/Project-Details-page/project-details-page.js";
 import Footer from './Components/Footer/footer.js';
