@@ -1,13 +1,18 @@
 import React from 'react';
 import "./resume.css";
-import pdf from "./fiky-resume-3.pdf";
+import { Document, Page} from "react-pdf";
+import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+//import resumePDF from "./fiky-resume-3.pdf";
 
 function Resume() {
+  const pdf = 'fiky-resume-3.pdf';
   return (
     <div>
-      <h2>My Resume ...</h2>
+      <h2>My Resume !!!</h2>
+      <Document file={pdf} onError={console.error}>
+        <Page pageNumber={1} />
+      </Document>
 
-      {/* <iframe src={pdf} title="PDF Viewer" width="600px" height="800px"></iframe> */}
     </div>
   )
 }
