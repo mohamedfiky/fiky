@@ -1,17 +1,24 @@
 import React from 'react';
 import "./resume.css";
-import { Document, Page} from "react-pdf";
-import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
-//import resumePDF from "./fiky-resume-3.pdf";
+// import resumePDF from "./fiky-resume-3.pdf";
+import DocViewer, { DocViewerRenderers } from "@cyntler/react-doc-viewer";
+
 
 function Resume() {
-  const pdf = 'fiky-resume-3.pdf';
+
+  const docs = [
+    // { uri: "https://url-to-my-pdf.pdf" }, // Remote file
+    { 
+      uri: require("./fiky-resume-3.pdf"),
+      fileType: "pdf",
+      fileName: "sss"
+    } // Local File
+  ];
+
   return (
     <div>
       <h2>My Resume !!!</h2>
-      <Document file={pdf} onError={console.error}>
-        <Page pageNumber={1} />
-      </Document>
+      <DocViewer documents={docs} pluginRenderers={DocViewerRenderers} />
 
     </div>
   )
