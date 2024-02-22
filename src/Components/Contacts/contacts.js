@@ -49,10 +49,10 @@ function Contacts() {
             <div className="contact-box e-mail">
                 <i><MdOutlineEmail /></i>
                 <div className="contact-info">
-                    <h3>E-mail</h3>
+                    <h3>E-Mail</h3>
                     <p>You can send me direct messages via  
                         <a href="mailto:fiky4work@gmail.com" 
-                           target="_blank">E-mail</a>
+                           target="_blank">Email</a>
                     </p>
                 </div>
             </div>

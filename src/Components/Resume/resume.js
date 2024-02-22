@@ -1,25 +1,14 @@
 import React from 'react';
 import "./resume.css";
-// import resumePDF from "./fiky-resume-3.pdf";
-import DocViewer, { DocViewerRenderers } from "@cyntler/react-doc-viewer";
-
 
 function Resume() {
 
-  const docs = [
-    // { uri: "https://url-to-my-pdf.pdf" }, // Remote file
-    { 
-      uri: require("./fiky-resume-3.pdf"),
-      fileType: "pdf",
-      fileName: "sss"
-    } // Local File
-  ];
-
   return (
-    <div>
-      <h2>My Resume !!!</h2>
-      <DocViewer documents={docs} pluginRenderers={DocViewerRenderers} />
-
+    <div className="resume container">
+      <h2 className="pages-heading">My Resume</h2>
+      <p className="pages-p">
+        Feel free to browse through my resume, or if you prefer, you can download it for later review.
+      </p>
     </div>
   )
 }
