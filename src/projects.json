@@ -40,7 +40,7 @@
         "filter": "wordpress",
         "info": "A multi-page company website",
         "details": "In this website I show my ability to work on WordPress projects using Elementor plugin. The content of Portfolio page is fetched from an external API using XMLHttpRequest. The Contact Us page form works properly using WPForms and WP Mail SMTP plugins. This website's design is cloned from another site (link provided in the footer).",
-        "skills": ["ًWordPress", "Elementor", "XMLHttpRequest & API & JSON", "WPForms & WP Mail SMTP", "HTML & CSS"],
+        "skills": ["WordPress", "Elementor", "XMLHttpRequest & API & JSON", "WPForms & WP Mail SMTP", "HTML & CSS"],
         "imgUrl": "projects-imgs/jackson.png",
         "imgs": [
                     "projects-imgs/jackson-1.png",
@@ -126,7 +126,7 @@
         "filter": "wordpress",
         "info": "An Italian food restaurant website",
         "details": "Nothing fancy here; it's just one of the WordPress Starter Templates. I just modified it a little bit using the Elementor plugin.",
-        "skills": ["ًWordPress", "Elementor", "Starter Templates"],
+        "skills": ["WordPress", "Elementor", "Starter Templates"],
         "imgUrl": "projects-imgs/fresco.png",
         "imgs": [
                     "projects-imgs/fresco-1.png",
