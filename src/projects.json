@@ -18,7 +18,7 @@
     },
     {
         "id": 2,
-        "name": "Active-React",
+        "name": "Active",
         "param": "active-react",
         "filter": "react",
         "info": "A multi-page company website",
@@ -141,7 +141,7 @@
         "name": "Weather App",
         "param": "weather-app",
         "filter": "react",
-        "info": "Web app to know the weather",
+        "info": "A web app to know the weather",
         "details": "This React web app depends on the (openweathermap.org) API, which allows the user to search for the weather of a chosen city.",
         "skills": ["React", "React Hooks(useState)", "Fetch & API & JSON"],
         "imgUrl": "projects-imgs/weather.png",
