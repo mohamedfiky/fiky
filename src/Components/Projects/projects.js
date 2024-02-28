@@ -64,8 +64,9 @@ function Projects() {
           <div className="project-info">
             <img src={project.imgUrl}  alt={project.name} />
             <div className="project-links">
-              <Link to={`/project-details/${project.param}`}  className="details">Details</Link>
-              <a target="_blank" href={project.link}>Link</a>
+              <Link to={`/project-details/${project.param}`}
+                    aria-label="project details" className="details">Details</Link>
+              <a href={project.link} aria-label="project link" target="_blank" >Link</a>
             </div>
           </div>
         </div>

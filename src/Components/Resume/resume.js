@@ -12,15 +12,17 @@ function Resume() {
       <div className="btns">
         <a 
           className="view"
-          href="https://drive.google.com/file/d/1jnj3BNzV8SQs9MVx32gZwqujmAQN3mBj/view"
+          href="https://drive.google.com/file/d/1tSRX1lHEnmEsNQ53E-XNy_2U43cRwzD9/view"
           target="_blank"
+          aria-label="view resume"
           >
           View
           </a>
           <a 
           className="download"
-          href="fiky-resume-3.pdf" // directly in public folder
-          download="fiky-resume-3.pdf"
+          href="M-Fiky_Frontend.pdf" // directly in public folder
+          download="M-Fiky_Frontend.pdf"
+          aria-label="download resume"
           >
           Download
           </a>
@@ -29,4 +31,4 @@ function Resume() {
   )
 }
 
-export default Resume;
+export default Resume ;

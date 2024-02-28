@@ -79,11 +79,11 @@ function ProjectDetails() {
               </ul>
               <div className="project-links">
                 <span className="live-preview">Live Preview: 
-                  <a href={project.link} target="_blank">{project.name}</a>
+                  <a href={project.link} target="_blank" aria-label="project link">{project.name}</a>
                 </span>
                 {project.github && (
                 <span className="code">Code: 
-                  <a href={project.github} target="_blank">GitHub</a>
+                  <a href={project.github} target="_blank" aria-label="project code">GitHub</a>
                 </span>
               )}
               </div>

@@ -22,7 +22,7 @@ function Contacts() {
                     <h3>Upwork</h3>
                     <p>If you have a freelancing project you can reach me through 
                         <a href="https://www.upwork.com/freelancers/~0156ea85e28f600bc8" 
-                           target="_blank">My Upwork Account</a>
+                           aria-label="my upwork account" target="_blank">My Upwork Account</a>
                     </p>
                 </div>
             </div>
@@ -32,7 +32,7 @@ function Contacts() {
                     <h3>Linked In</h3>
                     <p>You're welcome to add me to your connections on
                         <a href="https://www.linkedin.com/in/mohamedfiky" 
-                           target="_blank">LinkedIn</a>
+                           aria-label="my linkedin profile" target="_blank">LinkedIn</a>
                     </p>
                 </div>
             </div>
@@ -42,7 +42,7 @@ function Contacts() {
                     <h3>WhatsApp</h3>
                     <p>Feel free to reach out to me through
                         <a href="https://wa.me/201558065883" 
-                           target="_blank">WhatsApp</a>
+                           aria-label="my watsapp" target="_blank">WhatsApp</a>
                     </p>
                 </div>
             </div>
@@ -52,7 +52,7 @@ function Contacts() {
                     <h3>E-Mail</h3>
                     <p>You can send me direct messages via  
                         <a href="mailto:fiky4work@gmail.com" 
-                           target="_blank">Email</a>
+                           aria-label="send me an email" target="_blank">Email</a>
                     </p>
                 </div>
             </div>
@@ -62,4 +62,4 @@ function Contacts() {
   )
 }
 
-export default Contacts
+export default Contacts ;
