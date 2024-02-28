@@ -29,7 +29,7 @@ function Sidebar() {
       <div className="sidebar-content">
   
         <div className="profile">
-          <img src={profileImg} alt="My Profile Picture" />
+          <img src={profileImg} alt="My Picture" />
           <h1><NavLink exact to="/" onClick={close_sidebar} aria-label="home page">
             Mohamed El-Fiky</NavLink>
           </h1>
