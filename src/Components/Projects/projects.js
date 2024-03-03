@@ -76,9 +76,7 @@ function Projects() {
   return (
     <div className="projects container">
         <h2 className="pages-heading">Projects</h2>
-        <p className="pages-p">I can work efficiently on various types of projects,
-         such as HTML, CSS & JavaScript projects, React JS projects,
-          as well as WordPress projects.
+        <p className="pages-p">Explore some of my projects, feel free to hover over them for details (or click on a project if you're on a touch screen).
         </p>
         <div className="projects-types">
           <ul className="filters">
