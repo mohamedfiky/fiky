@@ -35,15 +35,15 @@ function Sidebar() {
           </h1>
           <div className="social-links">
             <a href="https://www.linkedin.com/in/mohamedfiky"
-               aria-label="my linkedin profile" target="_blank"><FaLinkedinIn /></a>
+               aria-label="my linkedin profile" target="_blank" rel="noopener"><FaLinkedinIn /></a>
             <a href="https://github.com/mohamedfiky"
-               aria-label="my github account" target="_blank"><FiGithub /></a>
+               aria-label="my github account" target="_blank" rel="noopener"><FiGithub /></a>
             <a href="https://wa.me/201558065883"
-               aria-label="my whatsapp" target="_blank"><SiWhatsapp /></a>
+               aria-label="my whatsapp" target="_blank" rel="noopener"><SiWhatsapp /></a>
             <a href="https://www.upwork.com/freelancers/~0156ea85e28f600bc8"
-               aria-label="my upwork account" target="_blank"><SiUpwork /></a>
+               aria-label="my upwork account" target="_blank" rel="noopener"><SiUpwork /></a>
             <a href="mailto:fiky4work@gmail.com"
-               aria-label="send me an email" target="_blank"><MdOutlineEmail /></a>
+               aria-label="send me an email" target="_blank" rel="noopener"><MdOutlineEmail /></a>
           </div>
         </div>
   
@@ -61,7 +61,7 @@ function Sidebar() {
       <div className="credits">
         Design inspired by 
         <a href="https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/"
-           aria-label="design credits" target="_blank">bootstrapmade</a>
+           aria-label="design credits" target="_blank" rel="noopener">bootstrapmade</a>
       </div>
 
     </aside>

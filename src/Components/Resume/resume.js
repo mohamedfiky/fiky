@@ -14,6 +14,7 @@ function Resume() {
           className="view"
           href="https://drive.google.com/file/d/1tSRX1lHEnmEsNQ53E-XNy_2U43cRwzD9/view"
           target="_blank"
+          rel="noopener"
           aria-label="view resume"
           >
           View

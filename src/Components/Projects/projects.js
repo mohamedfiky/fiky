@@ -66,7 +66,7 @@ function Projects() {
             <div className="project-links">
               <Link to={`/project-details/${project.param}`}
                     aria-label="project details page" className="details">Details</Link>
-              <a href={project.link} aria-label="project link" target="_blank" >Link</a>
+              <a href={project.link} aria-label="project link" target="_blank" rel="noopener">Link</a>
             </div>
           </div>
         </div>
